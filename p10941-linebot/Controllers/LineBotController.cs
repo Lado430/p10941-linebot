@@ -22,8 +22,8 @@ namespace p10941_linebot.Controllers
             _httpContextAccessor = serviceProvider.GetRequiredService<IHttpContextAccessor>();
             _httpContext = _httpContextAccessor.HttpContext;
             _lineBotConfig = new LineBotConfig();
-            _lineBotConfig.channelSecret = "512063c49d9b93b1f6620b9217602ca1";
-            _lineBotConfig.accessToken = "nq+dtRNngBxlUz/RwYgB1klPXBzIclNuslfumXgxR7+Q9HNMPyxpa8qW1OJvLM75pfho07Iljk8gpB3SdWH2A+MEq7FmGEO2pkeV6uO5h7kH9paBHmKtjQINtnrmjLk1pZh9DhgjO+Pv2+ld3RZjjgdB04t89/1O/w1cDnyilFU=";
+            _lineBotConfig.channelSecret = "ec25b087ffe902bd37eb8c2341a9ad50";
+            _lineBotConfig.accessToken = "29zfyjfVreEFI+6j5P9TMlNzFt3RjXTGtlzv8qIgD9ICV1EU7OD3YnjeqRGIIVxnWHgmLpSsuRd+TlK04liOcZSPXYlemmSnG6MEoHWV6P3J3xdfRii+9lby/cQFvgjVl6d/GXzDftdgJQrkHerz7QdB04t89/1O/w1cDnyilFU=";
         }
         
         //完整的路由網址就是 https://xxx/api/linebot/run
